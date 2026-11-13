@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>gta6-clips — Herramienta de publicación para YouTube</title>
+<meta name="description" content="Herramienta privada que publica clips de gameplay en el canal de YouTube de su propio dueño.">
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 48px 24px;
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: #0d1117; color: #c9d1d9;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; color: #f0f6fc; }
+  .tag { font-size: 14px; color: #8b949e; margin-bottom: 36px; }
+  h2 { font-size: 19px; margin: 36px 0 10px; color: #f0f6fc; }
+  p, li { color: #c9d1d9; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 7px; }
+  a { color: #58a6ff; }
+  footer {
+    margin-top: 48px; padding-top: 20px;
+    border-top: 1px solid #21262d; font-size: 14px; color: #8b949e;
+  }
+  @media (prefers-color-scheme: light) {
+    body { background: #fff; color: #24292f; }
+    h1, h2 { color: #1f2328; }
+    p, li { color: #24292f; }
+    footer { border-color: #d0d7de; color: #57606a; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>gta6-clips</h1>
+  <div class="tag">Herramienta privada de publicación para YouTube</div>
+
+  <p>
+    <strong>gta6-clips</strong> es una herramienta de uso personal que sube clips cortos
+    de gameplay al canal de YouTube de su propio dueño. No es un servicio público: no
+    tiene registro de usuarios, no se ofrece a terceros y nadie más puede conectarse
+    a ella.
+  </p>
+
+  <h2>Qué hace</h2>
+  <ul>
+    <li>Selecciona momentos destacados de retransmisiones públicas de videojuegos.</li>
+    <li>Los recorta, los adapta a formato vertical y les añade subtítulos.</li>
+    <li>Los publica en el canal de YouTube de su dueño mediante la YouTube Data API v3.</li>
+  </ul>
+
+  <h2>Quién la usa</h2>
+  <p>
+    Una sola persona: el propietario del canal, que es también quien autoriza la
+    aplicación. La herramienta solo puede publicar en el canal de la cuenta que le
+    concedió permiso.
+  </p>
+
+  <h2>Permisos que solicita</h2>
+  <ul>
+    <li><strong>Subir vídeos</strong> — para publicar los clips.</li>
+    <li><strong>Gestionar el canal</strong> — para poder retirar o hacer privado un
+        vídeo de inmediato si el autor del material original lo solicita.</li>
+    <li><strong>Leer estadísticas</strong> — para medir qué clips funcionan.</li>
+  </ul>
+
+  <h2>Atribución</h2>
+  <p>
+    Cada vídeo publicado acredita en su descripción al creador del material original,
+    con su nombre y un enlace a su canal. Cualquier creador que quiera que se retire un
+    clip suyo puede escribir a la dirección de abajo y se elimina.
+  </p>
+
+  <h2>Privacidad</h2>
+  <p>
+    La herramienta no recopila datos de ninguna persona. Los detalles están en la
+    <a href="privacidad.html">política de privacidad</a>.
+  </p>
+
+  <footer>
+    Contacto: <a href="mailto:highlightsgtavi2@gmail.com">highlightsgtavi2@gmail.com</a><br>
+    Última actualización: 13 de noviembre de 2026
+  </footer>
+</main>
+</body>
+</html>
